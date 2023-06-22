@@ -1,6 +1,21 @@
+import React, { useEffect } from 'react';
 import './App.css';
 
 function App() {
+
+  useEffect(() => {
+
+    async function fetchData() {
+      const response = await fetch('http://localhost:3000/users');
+      const data = await response.json();
+      console.log(data);
+    }
+    fetchData();
+    
+  }, []);
+
+  
+
   return (
     <div className="App">
       <div className="overlay">
