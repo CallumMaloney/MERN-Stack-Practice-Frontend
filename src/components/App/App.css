@@ -1,0 +1,97 @@
+.App{
+  width: 100vw;
+  height: 100vh;
+  background-color: #784ae2;
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.overlay{
+  width: 50%;
+  height: 100%;
+  box-shadow: 3px 3px 10px 2px rgba(0,0,0,0.75);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-around;
+  background-color: #96adc3;
+}
+.header{
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  background-color: #5726CA;
+  color: white;
+}
+.main{
+  width: 90%;
+  height: 75%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 16px;
+  background-color: #5726CA;
+}
+.main__form{
+  width: 95%;
+  height: 95%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+}
+.main__form--input{
+  width: 90%;
+  height: 15%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+}
+.main__form--input>label{
+  width: 100%;
+  height: 30%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 1.5rem;
+  font-weight: bold;
+  color: white;
+}
+.main__form--input>input{
+  width: 70%;
+  height: 60%;
+  border: none;
+  border-radius: 16px;
+  padding: 0 10px;
+  font-size: 1.5rem;
+  font-weight: bold;
+  background-color: #96adc3;
+  text-align: center;
+}
+.main__form--btn{
+  width: 90%;
+  height: 15%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.main__form--btn>button{
+  width: 75%;
+  height: 50%;
+  border: none;
+  border-radius: 16px;
+  font-size: 1.5rem;
+  font-weight: bold;
+  background-color: #8096a9;
+  color: white;
+}
+.main__form--btn>button:hover{
+  background-color: #96adc3;
+  color: black;
+  transform: translateY(-5px);
+  transition: all 0.3s ease;
+  cursor: pointer;
+}
